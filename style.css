@@ -1,0 +1,184 @@
+/* =====================================================
+   SMART WASTE CLASSIFICATION - PROFESSIONAL THEME
+===================================================== */
+
+/* ---------- Main App ---------- */
+
+.stApp {
+    background: linear-gradient(to right, #eef7f6, #f8fbfb);
+    color: #1F2937;
+}
+
+/* ---------- Sidebar ---------- */
+
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3{
+    color:#7DD3FC;
+}
+
+/* ---------- Header ---------- */
+
+.main-title{
+    font-size:42px;
+    font-weight:800;
+    color:#0F172A;
+    margin-bottom:0;
+}
+
+.sub-title{
+    font-size:18px;
+    color:#475569;
+    margin-top:-10px;
+    margin-bottom:25px;
+}
+
+/* ---------- Cards ---------- */
+
+.prediction-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    border-left:8px solid #14B8A6;
+
+    margin-top:10px;
+
+}
+
+.about-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+/* ---------- Upload ---------- */
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #14B8A6;
+
+    border-radius:15px;
+
+    padding:10px;
+
+    background:white;
+
+}
+
+/* ---------- Progress ---------- */
+
+.stProgress > div > div{
+
+    background:#14B8A6;
+
+}
+
+/* ---------- Buttons ---------- */
+
+.stButton>button{
+
+    background:#14B8A6;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:8px 20px;
+
+    font-weight:600;
+
+}
+
+.stButton>button:hover{
+
+    background:#0F766E;
+
+    color:white;
+
+}
+
+/* ---------- Image ---------- */
+
+img{
+
+    border-radius:15px;
+
+}
+
+/* ---------- Success ---------- */
+
+[data-testid="stAlert"]{
+
+    border-radius:12px;
+
+}
+
+/* ---------- Footer ---------- */
+
+.footer{
+
+    text-align:center;
+
+    color:#64748B;
+
+    font-size:15px;
+
+    margin-top:50px;
+
+}
+
+/* ---------- Divider ---------- */
+
+hr{
+
+    margin-top:30px;
+
+    margin-bottom:30px;
+
+}
+
+/* ---------- Expander ---------- */
+
+.streamlit-expanderHeader{
+
+    font-weight:bold;
+
+    color:#0F172A;
+
+}
+
+/* ---------- Metric ---------- */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
