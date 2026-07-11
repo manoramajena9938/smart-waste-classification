@@ -11,6 +11,12 @@ Waste segregation is an essential step in effective recycling and environmental 
 This project uses **Deep Learning** to classify waste images into predefined categories. A user can upload an image through a modern **Streamlit web application**, and the model predicts the waste category along with its confidence score.
 
 ---
+## 🌐 Live Demo
+
+🚀 **Try the deployed application:** [Smart Waste Classification App]((https://smart-waste-classification-jgp9xepnb6speei6ydvspg.streamlit.app/))
+
+📂 **GitHub Repository:** [View Source Code]((https://github.com/manoramajena9938/smart-waste-classification/edit/main/README.md))
+
 
 ## 🚀 Features
 
